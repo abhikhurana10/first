@@ -20,7 +20,7 @@ function draw() {
     speed = -3;
   }
   if (x<width){
-  speed = 1;
+  x=0;
   }
   
  x = x + speed; 
